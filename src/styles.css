@@ -1,1 +1,4 @@
-/* Add application styles & imports to this file! */
+p {
+  font-family: Lato;
+  color:rgb(51, 207, 51);
+}

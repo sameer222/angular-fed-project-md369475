@@ -10,10 +10,10 @@ import { EmpaddComponent } from '../../src/empadd/empadd.component';
   ],
   imports: [
     RouterModule.forRoot([
-      { path: 'login', component: MainPageComponent },
-      { path: 'home', component: EmplistComponent },
-      { path: 'catalog', component: EmpaddComponent },
-      { path: '**', redirectTo: 'login' }
+      { path: 'HOME', component: MainPageComponent },
+      { path: 'emplist', component: EmplistComponent },
+      { path: 'empadd', component: EmpaddComponent },
+      { path: '**', redirectTo: 'HOME' }
     ])
   ],
   exports: [

@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { MainPageComponent } from './main-page.component';
+import { AppRoutingModule } from '../../src/routing/routing.module';
 import { CommonModule } from '@angular/common';
 
 @NgModule({

@@ -7,9 +7,19 @@
 </head>
 	<h1>Employee Management System</h1>
 <body>
-<a href="/emplist">Employees List</a>
-&nbsp;
-<a href="/empadd">Add Employee</a>
+
+<br>
+
+  <div class="container">
+    <a routerLinkActive="active" 
+       routerLink="/empadd">EmpAdd</a> |
+
+    <a routerLinkActive="active" 
+       routerLink="/emplist">EmpList</a> | 
+       
+    <router-outlet></router-outlet>
+  </div>
+
 </body>
 
 </html>

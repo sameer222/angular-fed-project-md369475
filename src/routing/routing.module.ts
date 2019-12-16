@@ -1,8 +1,8 @@
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { MainPageComponent } from '../main-page/main-page.component';
-import { EmplistComponent } from '../emplist/emplist.component';
-import { EmpaddComponent } from '../empadd/empadd.component';
+import { MainPageComponent } from '../../src/main-page/main-page.component';
+import { EmplistComponent } from '../../src/emplist/emplist.component';
+import { EmpaddComponent } from '../../src/empadd/empadd.component';
 
 @NgModule({
   declarations: [ 

@@ -5,8 +5,8 @@ import { EmplistComponent } from '../../src/emplist/emplist.component';
 import { EmpaddComponent } from '../../src/empadd/empadd.component';
 
 @NgModule({
-  declarations: [ 
-    MainPageComponent, EmplistComponent, EmpaddComponent
+  declarations: [ EmplistComponent,EmpaddComponent
+    
   ],
   imports: [
     RouterModule.forRoot([
@@ -22,6 +22,6 @@ import { EmpaddComponent } from '../../src/empadd/empadd.component';
   providers: [],
 
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
 
 

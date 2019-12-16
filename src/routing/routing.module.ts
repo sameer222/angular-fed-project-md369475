@@ -2,17 +2,17 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { MainPageComponent } from '../main-page/main-page.component';
 import { EmplistComponent } from '../emplist/emplist.component';
-import { EmpaddComponent } from '../emplist/empadd.component';
+import { EmpaddComponent } from '../empadd/empadd.component';
 
 @NgModule({
   declarations: [ 
-    LoginViewComponent, HomeViewComponent, CatalogViewComponent
+    MainPageComponent, EmplistComponent, EmpaddComponent
   ],
   imports: [
     RouterModule.forRoot([
-      { path: 'login', component: LoginViewComponent },
-      { path: 'home', component: HomeViewComponent },
-      { path: 'catalog', component: CatalogViewComponent },
+      { path: 'login', component: MainPageComponent },
+      { path: 'home', component: EmplistComponent },
+      { path: 'catalog', component: EmpaddComponent },
       { path: '**', redirectTo: 'login' }
     ])
   ],

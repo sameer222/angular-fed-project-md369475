@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ MainPageComponent, ],
+  declarations: [ MainPageComponent ],
   bootstrap:    [ MainPageComponent ]
 })
 export class MainPageModule { }
